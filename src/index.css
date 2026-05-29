@@ -11,11 +11,15 @@ body {
 html { scroll-behavior: smooth; }
 
 /* ─── YouTube full-screen cover ─── */
+.yt-cover {
+  overflow: hidden;
+}
+
 .yt-cover iframe {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1.08);
   width: 100vw;
   height: 56.25vw;
   min-height: 100vh;
@@ -23,24 +27,21 @@ html { scroll-behavior: smooth; }
   pointer-events: none;
 }
 
-/* ─── Shimmer divider ─── */
-@keyframes shimmer {
-  0%   { background-position: -200% center; }
-  100% { background-position: 200% center; }
-}
-
+/* ─── Section divider ─── */
 .shimmer-divider {
-  height: 1px;
+  height: 2px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
   background: linear-gradient(
     90deg,
     transparent 0%,
-    rgba(251, 191, 36, 0.0) 20%,
+    rgba(251, 191, 36, 0.0) 5%,
     rgba(251, 191, 36, 0.6) 50%,
-    rgba(251, 191, 36, 0.0) 80%,
+    rgba(251, 191, 36, 0.0) 95%,
     transparent 100%
   );
-  background-size: 200% auto;
-  animation: shimmer 3s linear infinite;
 }
 
 /* ─── Infinite marquee ─── */
