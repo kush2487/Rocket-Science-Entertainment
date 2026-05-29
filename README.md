@@ -56,7 +56,7 @@ npm -v
 ### 1. Navigate to the project folder
 
 ```bash
-cd "landing page/rse-landing"
+cd "rse-landing"
 ```
 
 ### 2. Install dependencies
