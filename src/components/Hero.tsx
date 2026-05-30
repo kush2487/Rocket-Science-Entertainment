@@ -130,7 +130,7 @@ export default function Hero() {
           transition={{ duration: 1.2, delay: 1 }}
           className="mt-4 text-amber-400 text-sm tracking-[0.4em] uppercase"
         >
-          Lights · Camera · Launch 🚀
+          Lights · Camera · Launch 
         </motion.p>
       </div>
 

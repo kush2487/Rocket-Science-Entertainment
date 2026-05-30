@@ -1,4 +1,4 @@
-# 🚀 Rocket Science Entertainment — Landing Page
+#  Rocket Science Entertainment — Landing Page
 
 A dark cinematic landing page for **Rocket Science Entertainment (RSE)**, a Bangalore-based creative production house. Inspired by [theviralfever.com](https://theviralfever.com/), featuring a full-screen showreel hero, portfolio grid, sister channels section, and a contact/map footer — all with smooth scroll animations.
 
@@ -51,7 +51,7 @@ npm -v
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Navigate to the project folder
 
@@ -141,13 +141,13 @@ rse-landing/
   - Slot 4: jdQeBIL6nvA
 - Dark gradient overlay (top + bottom) for text readability
 - Animated headline: ROCKET + amber SCIENCE + ENTERTAINMENT
-- Tagline: Lights · Camera · Launch 🚀
+- Tagline: Lights · Camera · Launch 
 - Prev / Next arrow buttons + bottom dot indicators
 - State: current (active video index), _direction (slide direction)
 
 ### 3. About — src/components/About.tsx
 
-- Amber eyebrow label: Lights · Camera · Launch 🚀
+- Amber eyebrow label: Lights · Camera · Launch 
 - Large heading: About Us
 - 3 paragraphs describing RSE identity, team, and location
 - Animation: useInView from Framer Motion — elements fade + slide up on scroll

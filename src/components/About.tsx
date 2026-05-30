@@ -37,7 +37,7 @@ export default function About() {
           transition={{ duration: 0.6 }}
           className="text-amber-400 tracking-[0.4em] uppercase text-sm mb-4 font-medium"
         >
-          Lights · Camera · Launch 🚀
+          Lights · Camera · Launch 
         </motion.p>
 
         <motion.h2
